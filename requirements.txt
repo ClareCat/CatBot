@@ -1,0 +1,10 @@
+Twisted==13.2.0
+beautifulsoup4==4.3.2
+irc==8.5.4
+lxml==3.2.4
+pyOpenSSL==0.13.1
+pywapi==0.3.6
+requests==2.1.0
+six==1.4.1
+wsgiref==0.1.2
+zope.interface==4.0.5

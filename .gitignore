@@ -1,4 +1,6 @@
 *.py[cod]
+settings.ini
+seen.json
 
 # C extensions
 *.so
