@@ -34,7 +34,7 @@ def get_user(msg):
 	pw = config.get("other", "pw")
 	link = config.get("other", "link")
 	url="{link}{pw}&username={user}".format(link=link, pw=pw, user=user_info[1])
-	soup = BeautifulSoup(requests.get(url).text)
+	soup = BeautifulSoup(requests.get(url, verify=False).text)
 	out_str = soup.text.replace(",", " |")
 	return out_str.encode('utf-8', errors='ignore').strip()
 
